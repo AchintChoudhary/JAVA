@@ -1,4 +1,4 @@
-public class question_9 {
+public class Friends_pairing {
     
 
     //Friends Pairing Problem---->

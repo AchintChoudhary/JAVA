@@ -4,7 +4,7 @@ public static void Quick_sort(int arr[],int start,int end){
    if(start>=end){
     return ;
    }
-   int pidx=partition(arr,start,end);
+   int pidx=partition(arr,start,end); //return the RIGHT index of pivot
 
 Quick_sort(arr, start, pidx-1); //Left 
 Quick_sort(arr, pidx+1, end);  //Right

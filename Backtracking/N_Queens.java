@@ -1,14 +1,15 @@
 
 
 public class N_Queens {
- 
+
+ static int count=0;
 public static boolean isSafe(char board[][],int row,int col) {
 //vertical up
     for(int i=row-1;i>=0;i--){
     if(board[i][col]=='Q'){
         return false;
     }
-}
+} 
 
 //diagonal left up
 for(int i=row-1,j=col-1;i>=0 && j>=0;i--,j--){
@@ -21,7 +22,7 @@ if(board[i][j]=='Q'){
 for(int i=row-1,j=col+1;i>=0 && j<board.length;i--,j++){
 if(board[i][j]=='Q'){
     return false;
-}
+} 
 }
 return true;
 }
@@ -30,8 +31,9 @@ return true;
 public static boolean nQueens(char board[][],int row){
     //base case
     if(row==board.length){
- //    printBoard(board);
+ //    printBoard(board);    //in the final it create the  single correct board;
  count++;   
+
  return true;
 }
     
@@ -89,9 +91,8 @@ return true;
  }
  }
 
- static int count=0;
 public static void main(String[] args) {
-        int n = 5;
+        int n = 4;
         char board[][] = new char[n][n];
 
         //initialize
@@ -101,6 +102,7 @@ board[i][j]='x';
             }
 
         }
+       
 
         if(nQueens(board,0)){
 System.out.println("Solution is Possible");

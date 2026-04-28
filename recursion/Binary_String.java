@@ -1,5 +1,5 @@
 
-public class question_10 {
+public class Binary_String {
     //Print all Binary string of size N without consecutive one----->
 
     public static void print_Binary_str(int n, int lastPlace, String str) {
@@ -18,6 +18,6 @@ public class question_10 {
     }
 
     public static void main(String[] args) {
-print_Binary_str(5, 0, " ");
+print_Binary_str(5, 0, "");
     }
 }

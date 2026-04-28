@@ -10,8 +10,10 @@ if(i==str.length()){
  return ;
 }
 
+//YES
 findSubset(str, ans+str.charAt(i), i+1);
 
+//NO 
 findSubset(str, ans, i+1);
 
 

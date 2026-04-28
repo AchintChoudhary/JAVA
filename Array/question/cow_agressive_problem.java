@@ -43,7 +43,7 @@ while(start<=end){
 
     public static void main(String[] args) {
     int arr[]={1,2,8,4,9};
-        int result=cow_agressive(arr,arr.length,3);
+        int result=cow_agressive(arr,arr.length,2);
         System.out.println(result);
 }
 }

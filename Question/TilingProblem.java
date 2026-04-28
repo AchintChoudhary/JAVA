@@ -1,5 +1,5 @@
 
-public class question_7 {
+public class TilingProblem {
         //Tiling  Problem   <Amazone>
     public static int Tiling_problem(int n) { //Size  2 * n
 //Base Case
@@ -19,6 +19,7 @@ return Ways;
     }
 
     public static void main(String[] args) {
-System.out.println(Tiling_problem(5));
+                                  //length
+System.out.println(Tiling_problem(3));
     }
 }

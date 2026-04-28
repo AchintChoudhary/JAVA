@@ -13,7 +13,7 @@ public static int calculate_gcd(int a,int b){
 return a;
 }
  public static void main(String[] args) {
-       int a=20,b=28;
+       int a=28,b=20;
        int result=calculate_gcd(a,b);
     System.out.println(result);
     }
