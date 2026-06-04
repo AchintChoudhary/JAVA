@@ -20,7 +20,7 @@ int j=mid+1; //Iterator for Right part
 // int k=0;  //Iterator for temp array
 int k=start;
 while(i<=mid && j<=end){
-    if(arr[i]<arr[j]){
+    if(arr[i]>arr[j]){
         temp[k]=arr[i];
         i++;
     }else{
